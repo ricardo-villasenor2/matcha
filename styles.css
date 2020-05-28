@@ -1,8 +1,28 @@
-h1 {
-    color: #025157;
-    font-weight: bold;
-    text-align: center;
-}
-p { color: #46484c;
-    text-align: center;
-}
+h1 { 
+   color: #025157; 
+    font-weight: bold; 
+   text-align: center; 
+    } 
+     
+     
+    form { 
+    text-align: center; 
+    } 
+    
+     
+    .texto_centrado { 
+    text-align: center; 
+    color: #46484c; 
+    } 
+     
+     
+    button { 
+    color: #fff; 
+    background-color: #025157; 
+    } 
+    
+     
+    body { 
+    background-color: #fffbf7; 
+    } 
+    
