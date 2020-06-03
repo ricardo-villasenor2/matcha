@@ -23,6 +23,56 @@ h1 {
     
      
     body { 
-    background-color: #fffbf7; 
+    background-color: #fffbf7;
+    margin: 0px;
+    padding: 0px; 
     } 
-    
+   .header {
+      margin: 40px 20px 0px;
+      font-size: 0px;
+      height: 45px;
+      font-family: sans-serif;
+    }
+
+    .header > * {
+       display: inline-block;
+       font-size: 16px
+    }
+
+    .logo {
+       width: 15%
+    }
+
+    .navbar {
+       width: 70%;
+       text-align: center;
+       color: #025157;
+   }
+
+    .action {
+       width: 15%;
+       text-align: right;
+       font-size: 14px;
+    }
+
+   .menu-item {
+      display: inline;
+      margin: 25px;
+      color: #025157;
+   }
+
+   .action > * {
+      margin: 0 10px;
+   }
+
+   .action a {
+      color: #67b54b
+   }
+
+   .action button {
+      color: #fff;
+      background-color: #67b54b;
+      padding: 12px 14px;
+      border: none;
+      border-radius: 5px;
+   }
