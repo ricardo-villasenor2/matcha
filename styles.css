@@ -36,7 +36,10 @@ h1 {
 
     .header > * {
        display: inline-block;
-       font-size: 16px
+       font-size: 16px;
+       vertical-align: center;
+       height: 100%;
+       line-height: 45px;
     }
 
     .logo {
@@ -76,3 +79,61 @@ h1 {
       border: none;
       border-radius: 5px;
    }
+   .promo {
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .publish {
+      /* container styles if any */
+    }
+    
+    .publish h3 {
+      font-family: sans-s;
+      font-size: 40px;
+      line-height: 48px;
+      color: #025157 ;
+    }
+    
+    .publish > p {
+      font-size: 16px;
+      color: #343434;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .publish > form {
+      display: flex;
+    }
+    
+    .publish > form p {
+      color: #343434;
+      margin-right: 18px;
+    }
+
+    .explanatory-video {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       flex: 1;
+    }
+    .explanatory-video img {
+       width: 120px;
+       margin-top: 10px;
+    }
+    
+    .publish {
+       flex: 1;
+    }
+    .fixed-header {
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       background-color: #fffbf7;
+    }
+
+
