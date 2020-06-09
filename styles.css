@@ -1,39 +1,30 @@
-h1 { 
-   color: #025157; 
-    font-weight: bold; 
-   text-align: center; 
-    } 
-     
-     
-    form { 
-    text-align: center; 
-    } 
-    
-     
-    .texto_centrado { 
-    text-align: center; 
-    color: #46484c; 
-    } 
-     
-     
-    button { 
-    color: #fff; 
-    background-color: #025157; 
-    } 
-    
-     
-    body { 
+h1 {
+   color: #025157;
+    font-weight: bold;
+   text-align: center;
+    }
+    form {
+    text-align: center;
+    }
+    .texto_centrado {
+    text-align: center;
+    color: #46484c;
+    }
+    button {
+    color: #fff;
+    background-color: #025157;
+    }
+    body {
     background-color: #fffbf7;
     margin: 0px;
-    padding: 0px; 
-    } 
+    padding: 0px;
+    }
    .header {
       margin: 40px 20px 0px;
       font-size: 0px;
       height: 45px;
       font-family: sans-serif;
     }
-
     .header > * {
        display: inline-block;
        font-size: 16px;
@@ -41,37 +32,30 @@ h1 {
        height: 100%;
        line-height: 45px;
     }
-
     .logo {
        width: 15%
     }
-
     .navbar {
        width: 70%;
        text-align: center;
        color: #025157;
    }
-
     .action {
        width: 15%;
        text-align: right;
        font-size: 14px;
     }
-
    .menu-item {
       display: inline;
       margin: 25px;
       color: #025157;
    }
-
    .action > * {
       margin: 0 10px;
    }
-
    .action a {
       color: #67b54b
    }
-
    .action button {
       color: #fff;
       background-color: #67b54b;
@@ -86,34 +70,28 @@ h1 {
       align-items: center;
       justify-content: center;
    }
-
    .publish {
       /* container styles if any */
     }
-    
     .publish h3 {
       font-family: sans-s;
       font-size: 40px;
       line-height: 48px;
       color: #025157 ;
     }
-    
     .publish > p {
       font-size: 16px;
       color: #343434;
       line-height: 1.5;
       margin-bottom: 20px;
     }
-    
     .publish > form {
       display: flex;
     }
-    
     .publish > form p {
       color: #343434;
       margin-right: 18px;
     }
-
     .explanatory-video {
        display: flex;
        flex-direction: column;
@@ -124,7 +102,6 @@ h1 {
        width: 120px;
        margin-top: 10px;
     }
-    
     .publish {
        flex: 1;
     }
