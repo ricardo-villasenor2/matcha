@@ -267,4 +267,39 @@ body {
    .banner > img {
      width: 100%;
    }
+ 
+   .publish > form {
+     flex-direction: column;
+   }
+ 
+   .publish > form > div {
+     height: 70%;
+     margin-top: 15px;
+   }
+ 
+   .publish > form > div > input {
+     width: 60%;
+   }
+ 
+   .promo {
+     flex-direction: column;
+   }
+ 
+   .promo .explanatory-video > video {
+     width: 80%;
+   }
+ 
+   .promo .explanatory-video img {
+     display: none;
+   }
+ 
+   .features {
+     grid-template: repeat(4, 400px) / 1fr;
+   }
+ 
  }
+
+
+
+
+ 
