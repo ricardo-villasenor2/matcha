@@ -46,6 +46,7 @@ body {
   height: 45px;
   margin-right: -5px;
   border: 1px solid #c6c6c6;
+  padding: 0 5px;
 }
 
 .main .banner {
@@ -341,7 +342,6 @@ main {
   background-size: cover;
   background-position: center;
 }
-
 
 .success-stories .stories-carousel .card .card-circle-summit {
   position: absolute;
